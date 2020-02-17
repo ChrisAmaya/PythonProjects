@@ -15,11 +15,19 @@ def find_nb(m):
     # m is something we refer to
     # find n in this function
     # example: if m is 8 then n is 2
-    n = 1
-    if n ^ 3 == m: # base case
-        return n
+
+    if 1 ** 3 == m:  # base case
+        return 1
     else:
-        # TODO: figure out a way to add 1 to n each time (making it global maybe 
-        n += 1
-        find_nb(m)
+        # TODO: figure out a way to add 1 to n each time (making it global maybe
+        n = 2
+        volume = 1
+        while volume < m:
+            volume = volume + n ** 3
+            if volume == m:
+                return n
+            else:
+                n += 1
+                continue
+        return -1
 
