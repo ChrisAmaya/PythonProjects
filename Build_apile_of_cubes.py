@@ -19,7 +19,6 @@ def find_nb(m):
     if 1 ** 3 == m:  # base case
         return 1
     else:
-        # TODO: figure out a way to add 1 to n each time (making it global maybe
         n = 2
         volume = 1
         while volume < m:
@@ -30,4 +29,5 @@ def find_nb(m):
                 n += 1
                 continue
         return -1
+
 
