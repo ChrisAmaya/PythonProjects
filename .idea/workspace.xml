@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dee83c35-47c9-4206-ba10-c3e59a2dd845" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_build_apile_of_cubes.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_build_apile_of_cubes.py" afterDir="false" />
-    </list>
+    <list default="true" id="dee83c35-47c9-4206-ba10-c3e59a2dd845" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581955750960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusted test_build_apile_of_cubes.py">
+      <created>1581955818844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581955818844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -187,7 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Test file" />
+    <MESSAGE value="Adjusted test_build_apile_of_cubes.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted test_build_apile_of_cubes.py" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Build_apile_of_cubes.py">
