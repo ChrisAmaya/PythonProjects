@@ -11,15 +11,14 @@ def to_camel_case(text):
     """
 
     Camel_version = ""
-
-    for i in range(1, len(text)): # First letter case
-        Camel_version += text[0]
-        if str(i) == "-" or "_": # dash/Underscore case
-            Camel_version += str(i+1).upper()
+    Camel_version = Camel_version + text[0]
+    for i in range(len(text)-1):  # First letter case
+        if str(i) == "-" or "_":  # dash/Underscore case
+            Camel_version = Camel_version + str(text[i+1]).upper()
         else:  # regular letter case
-            Camel_version += str(i).lower()
+            Camel_version = Camel_version + str(text[i]).lower()
     return Camel_version
 
-
+print(to_camel_case("please_work"))
 
 
