@@ -11,17 +11,22 @@ def to_camel_case(text):
     """
 
     Camel_version = ""
+    if text == '':
+        return Camel_version
     Camel_version += text[0]
     i = 1
     while i < (len(text)):
         if text[i] == "_":
             Camel_version = Camel_version + str(text[i+1]).upper()
             i += 2
+        elif text[i] == "-":
+            Camel_version = Camel_version + str(text[i + 1]).upper()
+            i += 2
         else:
             Camel_version = Camel_version + str(text[i]).lower()
             i += 1
     return Camel_version
 
-print(to_camel_case("please_work"))
+print(to_camel_case(""))
 
 
