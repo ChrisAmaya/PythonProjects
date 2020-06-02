@@ -7,25 +7,8 @@ def domain_name(url):
     Pre: URL - must be a proper formatted URL as a string
     :return: Domain name from the URL as a string
     """
-    # gets rid of http://
-    url = url[7:]
-
-    # gets rid of www.
-    if url.startswith('www.'):
-        url = url[4:]
-
-    # gets rid of any extensions
-    ext_start = url.find("/")
-    if ext_start == -1:
-        pass
-    else:
-        url = url[:ext_start]
-
-    # gets rid of .com
-    if url.endswith('.com'):
-        url = url[:-4]
-
-    return url
+    domain = url.split("://"[1].split("/")[0])
+    return domain
 
 
 print(domain_name("http://github.com/carbonfive/raygun"))
